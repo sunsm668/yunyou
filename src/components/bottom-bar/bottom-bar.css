@@ -1,0 +1,45 @@
+.bottom-bar .row1 {
+    overflow: hidden;
+    padding-top: 30px;
+}
+.bottom-bar .row1 .webname {
+float: left;
+font-size: 46px;
+}
+.bottom-bar .row1 .description {
+width: 480px;
+float: left;
+margin-left: 30px;
+padding-top: 10px;
+line-height: 24px;
+}
+.bottom-bar .row2 ul {
+overflow: hidden;
+padding-top: 30px;
+}
+.bottom-bar .row2 ul li {
+float: left;
+border-right: 1px solid white;
+padding: 0 10px;
+height: 16px;
+font-size: 14px;
+line-height: 16px;
+}
+.bottom-bar .row2 ul li a {
+color: white;
+}
+.bottom-bar .row2 ul li a:hover {
+color: #20BD9A;
+}
+.bottom-bar .row2 ul li:first-child {
+padding-left: 0;
+}
+.bottom-bar .row2 ul li:last-child {
+padding-right: 0;
+border-right: none;
+}
+.bottom-bar .row3 {
+font-size: 14px;
+padding-top: 10px;
+}
+  

@@ -1,0 +1,93 @@
+.shortcut-links > ul > li {
+    float: left;
+    padding: 0 9px;
+    line-height: 32px;
+    font-size: 14px;
+  }
+  .shortcut-links > ul > li:first-child {
+    padding-left: 0;
+  }
+  .shortcut-links > ul > li > a {
+    color: white;
+    font-weight: normal;
+  }
+  .shortcut-links > ul > li:hover > a {
+    color: #58f8d5;
+  }
+  .shortcut-links > ul > li.have_menu {
+    padding-right: 22px;
+    position: relative;
+  }
+  .shortcut-links > ul > li.have_menu::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: url(../../pages/index/images/icons.png) no-repeat 0 0;
+    right: 8px;
+    top: 50%;
+    margin-top: -3px;
+    transition: all 0.4s ease 0s;
+  }
+  .shortcut-links > ul > li.have_menu:hover::before {
+    transform: rotate(180deg);
+  }
+  .shortcut-links > ul > li.have_menu:hover .h_menu {
+    display: block;
+  }
+  .shortcut-links > ul > li.have_menu .h_menu {
+    position: absolute;
+    left: 0;
+    top: 32px;
+    z-index: 99999;
+    display: none;
+    padding-top: 6px;
+    width: 130px;
+  }
+  .shortcut-links > ul > li.have_menu .h_menu .menu_box {
+    background: rgba(255, 255, 255, 0.87);
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  .shortcut-links > ul > li.have_menu .h_menu .menu_box ul li {
+    line-height: 25px;
+  }
+  .shortcut-links > ul > li.have_menu .h_menu .menu_box ul li > a:hover {
+    color: #20BD9A;
+  }
+  .topbar-r {
+    float: right;
+  }
+  .topbar-r ul li {
+    float: left;
+    padding: 0 9px;
+    line-height: 32px;
+    position: relative;
+    font-size: 14px;
+  }
+  .topbar-r ul li:first-child {
+    padding-right: 20px;
+  }
+  .topbar-r ul li:first-child::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    top: 50%;
+    margin-top: -11px;
+    right: 5px;
+  }
+  .topbar-r ul li a {
+    color: white;
+  }
+  .topbar-r ul li a.iconfont {
+    font-size: 20px;
+  }
+  .topbar-r ul li a:hover {
+    color: #58f8d5;
+  }
+  .topbar-r ul li a.fdj {
+    font-size: 24px;
+  }

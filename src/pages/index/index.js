@@ -2,7 +2,15 @@
 import './css/reset.css';
 import './css/bundle.css';
 
-// js
-import './js/menu';
-import './js/carousel';
-import './js/backtotop';
+// 组件
+import '../../components/backtotop';
+import '../../components/bottom-bar';
+import '../../components/topbar';
+import '../../components/main-nav';
+import '../../components/header-con';
+import '../index/components/carousel';
+import '../index/components/menu';
+import '../index/components/fav-ad';
+import '../index/components/xxsw';
+// import '../index/components/jjzyx';
+import '../index/components/ddwl';
