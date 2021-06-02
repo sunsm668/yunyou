@@ -15,7 +15,6 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-    z-index: 99999;
     width: 180px;
     margin-left: -90px;
   }

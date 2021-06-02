@@ -1,6 +1,6 @@
 // css
-import './css/reset.css';
 import './css/bundle.css';
+import '../../assets/styles/reset.css'
 
 // 组件
 import '../../components/backtotop';
