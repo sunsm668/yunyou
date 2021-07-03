@@ -1,10 +1,8 @@
 // 垂直菜单的实现
+
 (function () {
-    // 得到所有菜单触碰项li标签
     var menu_lis = document.querySelectorAll('#v-menu li[data-n]');
-    // 得到vmenubox盒子
     var vmenubox = document.querySelector('#v-menu-box');
-    // 得到所有menu菜单
     var menus = document.querySelectorAll('#menus .menu');
 
     // 批量添加监听

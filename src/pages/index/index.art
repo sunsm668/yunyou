@@ -28,22 +28,28 @@
     <!-- carousel -->
     <section class="banner" id="banner">
       <div class="carousel">
-        {{include './components/carousel/carousel.art'}}
+        <!-- {{include './components/carousel/carousel.art'}} -->
+        <div id="slider-layout">
+          <%include('../../components/loading/loading.art',{
+            inline: false,
+            text: '(*^▽^*)正在拼命为您加载中...'
+          })%>
+        </div>
       </div>
       <div class="center-wrap">
-        <div class="btns">
-          <a id="leftbtn" href="javascript:;" class="btn leftbtn"></a>
-          <a id="rightbtn" href="javascript:;" class="btn rightbtn"></a>
-        </div>
+        {{include './components/slider/btn.art'}}
         <div class="v-menu-box" id="v-menu-box">
           {{include './components/menu/menu.art'}}
         </div>
       </div>
     </section>
-    <!-- fav-ad -->
+    <!-- 广告模块 fav-ad -->
     <section class="layer fav-ad">
-      <div class="center-wrap">
-        {{include './components/fav-ad/fav-ad.art'}}
+      <div id="fav-ad" class="center-wrap">
+        <%include('../../components/loading/loading.art',{
+          inline: false,
+          text: '(*^▽^*)正在拼命为您加载中...'
+        })%>
       </div>
     </section>
     <!-- xxsw -->

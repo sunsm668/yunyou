@@ -1,24 +1,24 @@
-.banner .carousel ul {
+.carousel ul {
     width: 600%;
     overflow: hidden;
   }
-  .banner .carousel ul li {
+.carousel ul li {
     float: left;
     width: 16.66666667%;
   }
-  .banner .carousel ul li img {
+.carousel ul li img {
     width: 100%;
     height: auto;
     display: block;
   }
-  .banner .carousel .circles {
+.carousel .circles {
     position: absolute;
     bottom: 10px;
     left: 50%;
     width: 180px;
     margin-left: -90px;
   }
-  .banner .carousel .circles li {
+.carousel .circles li {
     cursor: pointer;
     float: left;
     width: 16px;
@@ -28,7 +28,7 @@
     border-radius: 60px;
     transition: all 0.3s ease 0s;
   }
-  .banner .carousel .circles li.cur {
+.carousel .circles li.cur {
     background-color: #20bd9a;
     width: 32px;
   }

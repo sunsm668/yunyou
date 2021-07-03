@@ -1,0 +1,22 @@
+.slider,
+.slider__content,
+.slider__item,
+.slider__img{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    overflow: hidden;
+}
+.slider__item{
+    float: left;
+}
+.slider__img{
+    /* 转为块级元素去除图片间缝隙 */
+    /* display: block; */
+    vertical-align: top;
+}
+.slider-animation{
+    transition-property: transform;
+    transition-duration: 0ms;
+}
