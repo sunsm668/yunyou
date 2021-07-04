@@ -6,7 +6,7 @@ import render from './fav-ad.art'
 
 const favAdEl = document.getElementById('fav-ad')
 getData(URL).then( data => {
-    console.log(data);
+    // console.log(data);
     favAdEl.innerHTML = render({
         items: data
     });

@@ -13,8 +13,8 @@ const layoutEl = document.getElementById('slider-layout');
 
 
 getData(URL).then( data => {
-    //向模板中传入data
-    // console.log(data)
+
+    // console.log(data);
     // [
     //     {url: "http://alimc.img.imooc.com/class/muyun/mall-PC/slide/banner_01.jpg"},
     //     {url: "http://alimc.img.imooc.com/class/muyun/mall-PC/slide/banner_02.jpg"},
@@ -22,7 +22,7 @@ getData(URL).then( data => {
     //     {url: "http://alimc.img.imooc.com/class/muyun/mall-PC/slide/banner_04.jpg"},
     //     {url: "http://alimc.img.imooc.com/class/muyun/mall-PC/slide/banner_05.jpg"},
     // ]
-    length: 5
+    //向模板中传入data
     layoutEl.innerHTML = render({
         items: data
     })

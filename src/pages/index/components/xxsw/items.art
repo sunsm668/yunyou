@@ -1,0 +1,12 @@
+<ul>
+    {{each items}}
+    <li class="grid">
+      <a href="javascript:;">
+        <div class="pic">
+          <img class="p-img" src="{{$value.url}}" alt="" />
+        </div>
+        <div class="tip">{{$value.title}}</div>
+      </a>
+    </li>
+    {{/each}}
+  </ul>

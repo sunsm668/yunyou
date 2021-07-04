@@ -1,0 +1,1 @@
+export cosnt URL = 'https://www.imooc.com/api/mall-PC/index/menu/hot';

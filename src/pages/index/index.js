@@ -18,6 +18,7 @@ import '../../components/loading';
 // import '../index/components/carousel';
 import '../index/components/slider';
 import '../index/components/menu';
+import '../index/components/menus';
 import '../index/components/fav-ad';
 import '../index/components/xxsw';
 import '../index/components/jjzyx';

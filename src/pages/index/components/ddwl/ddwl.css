@@ -1,95 +1,108 @@
-.ddwl .bd{
-  background: red;
+.ddwl .bd .loading{
+  padding-top: 200px;
 }
-.ddwl .bd li.grid {
-    width: 364px;
-    height: 120px;
-    background: white;
-    margin-bottom: 30px;
-  }
-  .ddwl .bd li.grid .pic {
-    float: left;
-    width: 120px;
-    height: 120px;
-  }
-  .ddwl .bd li.grid .pic img {
-    width: 120px;
-    height: 120px;
-  }
-  .ddwl .bd li.grid .tip {
-    float: left;
-    width: 244px;
-    height: 120px;
-  }
-  .ddwl .bd li.grid .tip .inn {
-    padding: 10px;
-    font-size: 16px;
-    font-size: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    line-height: 24px;
-  }
-  .ddwl .bd .col1 {
-    float: left;
-    width: 364px;
-    margin-right: 30px;
-  }
-  .ddwl .bd .col1 li.big {
-    width: 364px;
-    height: 270px;
-    position: relative;
-  }
-  .ddwl .bd .col1 li.big .pic {
-    width: 364px;
-    height: 270px;
-  }
-  .ddwl .bd .col1 li.big .pic img {
-    width: 364px;
-    height: 270px;
-  }
-  .ddwl .bd .col1 li.big .tip {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 364px;
-    height: 104px;
-    background-color: rgba(0, 0, 0, 0.527);
-  }
-  .ddwl .bd .col1 li.big .tip .inn {
-    padding: 10px 16px;
-    color: white;
-    line-height: 30px;
-  }
-  .ddwl .bd .col1 li.big .tip .type {
-    position: absolute;
-    left: 16px;
-    bottom: 10px;
-    color: white;
-  }
-  .ddwl .bd .col1 li.big .tip .price {
-    position: absolute;
-    right: 16px;
-    bottom: 10px;
-    color: white;
-  }
-  .ddwl .bd .col1 li.big .tip .price span {
-    font-size: 26px;
-    color: #34E3BC;
-  }
-  .ddwl .bd .col2 {
-    float: left;
-    width: 364px;
-    margin-right: 30px;
-  }
-  .ddwl .bd .col3 {
-    float: left;
-    width: 364px;
-  }
-  .ddwl .bd .col3 .more {
-    height: 270px;
-    position: relative;
-    background: -webkit-linear-gradient(top, #FF6374, #FF7368);
-  }
+.ddwl .bd>ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:1152px;
+  height: 420px;
+}
+.ddwl .bd>ul>li{
+  width: 364px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background: #FFFFFF;
+}
+.ddwl .bd>ul>li:nth-child(1),
+.ddwl .bd>ul>li:nth-child(3),
+.ddwl .bd>ul>li:nth-child(6){
+  margin-top: 0;
+}
+.ddwl .bd>ul>li:nth-child(1),
+.ddwl .bd>ul>li:nth-child(2){
+  margin-left: 0;
+}
+.ddwl .bd>ul>li .pic{
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+.ddwl .bd>ul>li .tip{
+  float: left;
+  width: 244px;
+  height: 120px;
+}
+.ddwl .bd>ul>li .inn{
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+  padding: 27px 18px;
+}
+
+/*  big */
+.ddwl .bd>ul>li.big {
+  position: relative;
+  width: 364px;
+  height: 270px;
+  box-shadow: none;
+  overflow: hidden;
+}
+.ddwl .bd>ul>li.big .pic {
+  width: 364px;
+  height: 270px;
+}
+.ddwl .bd>ul>li.big .pic img.p-img {
+  width: 364px;
+  height: 270px;
+}
+.ddwl .bd>ul>li.big .tip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  width: 364px;
+  height: 104px;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 22px;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+.ddwl .bd>ul>li.big .tip .inn {
+  width: 322px;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 43px;
+}
+.ddwl .bd>ul>li.big .type {
+  position: absolute;
+  bottom: 12px;
+  left: 21px;
+}
+.ddwl .bd>ul>li.big .price {
+  position: absolute;
+  bottom: 12px;
+  right: 22px;
+}
+.ddwl .bd>ul>li.big .price span{
+  color: #36DFBA;
+}
+
+/* 查看更多 */
+.ddwl .bd>ul>li.more{
+  position: relative;
+  width: 364px;
+  height: 270px;
+  background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+}
+.ddwl .bd>ul>li.more ul{
+  display: flex;
+  width: 330px;
+  height: 22px;
+  font-size: 14px;
+  padding-left: 22px;
+}
+

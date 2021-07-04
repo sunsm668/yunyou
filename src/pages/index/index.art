@@ -39,6 +39,7 @@
       <div class="center-wrap">
         {{include './components/slider/btn.art'}}
         <div class="v-menu-box" id="v-menu-box">
+          <!-- 菜单模块 -->
           {{include './components/menu/menu.art'}}
         </div>
       </div>
@@ -52,7 +53,7 @@
         })%>
       </div>
     </section>
-    <!-- xxsw -->
+    <!-- 新鲜甩尾模块 xxsw -->
     <section class="layer xxsw">
       <div class="center-wrap">
         {{include './components/xxsw/xxsw.art'}}
@@ -64,25 +65,25 @@
         {{include './components/jjzyx/jjzyx.art'}}
       </div>
     </section>
-    <!-- ddwl -->
+    <!-- 当地玩乐模块 ddwl -->
     <section class="layer ddwl">
       <div class="center-wrap">
         {{include './components/ddwl/ddwl.art'}}
       </div>
     </section>
-    <!-- tsddty -->
+    <!-- 特色当地体验模块 tsddty -->
     <section class="layer tsddty">
-      <div class="center-wrap">
+      <div id='tsddty' class="center-wrap">
         {{include './components/tsddty/tsddty.art'}}
       </div>
     </section>
-    <!-- zsj -->
+    <!-- 最世界模块 zsj -->
     <section class="layer layer-common-style another-style zsj">
       <div class="center-wrap">
         {{include './components/zsj/zsj.art'}}
       </div>
     </section>
-    <!-- gt -->
+    <!-- 跟团模块 gt -->
     <section class="layer layer-common-style another-style gt">
       <div class="center-wrap">
         {{include './components/gt/gt.art'}}
