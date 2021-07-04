@@ -7,6 +7,6 @@ import render from './items.art';
 const layoutEl = document.querySelector('.ddwl .bd');
 
 getData(URL).then( data => {
-    console.log(data);
+    // console.log(data);
     layoutEl.innerHTML = render(data);
 })

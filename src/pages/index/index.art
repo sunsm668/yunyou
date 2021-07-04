@@ -59,7 +59,7 @@
         {{include './components/xxsw/xxsw.art'}}
       </div>
     </section>
-    <!-- jjzyx -->
+    <!-- 机酒自由行模块 jjzyx -->
     <section class="layer layer-common-style jjzyx">
       <div class="center-wrap">
         {{include './components/jjzyx/jjzyx.art'}}

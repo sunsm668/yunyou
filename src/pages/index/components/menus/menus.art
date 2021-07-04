@@ -1,6 +1,0 @@
-<div class="menus" id="menus">
-    <%include('../../../../components/loading/loading.art',{
-        inline: false,
-        text: '(*^▽^*)正在拼命为您加载中...'
-      })%>
-</div>

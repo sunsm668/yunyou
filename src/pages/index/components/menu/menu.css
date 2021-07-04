@@ -60,6 +60,7 @@
 .v-menu-box nav ul li[data-n=au]::before {
   background-position: -143px -287px;
 }
+/* 隐藏菜单项 */
 .v-menu-box .menu {
   position: absolute;
   top: 0;
@@ -70,6 +71,7 @@
   background-color: rgba(0, 0, 0, 0.486);
   transition: all 0.4s ease 0s;
 }
+/* 显示菜单项 */
 .v-menu-box .menu.active {
   display: block;
 }

@@ -1,5 +1,5 @@
 import './menu.css';
-import './menu'
+import './menu';
 
 import { URL } from './config';
 import { getData } from 'api/getData';
