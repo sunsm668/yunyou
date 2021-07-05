@@ -27,7 +27,7 @@ body {
   .banner {
     width: 100%;
     min-width: 1152px;
-    min-height: 585px;
+    min-height: 350px;
     position: relative;
     overflow: hidden;
   }
@@ -126,7 +126,7 @@ body {
   }
   /* 查看更多 */
   .layer .more {
-    /* background: -webkit-linear-gradient(top, #34E3BC, #15AF7A); */
+   
     cursor: pointer;
   }
   .layer .more a {
