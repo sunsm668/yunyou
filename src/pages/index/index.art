@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>慕云游</title>
+    <title>云游网</title>
   </head>
   <body>
     <header class="site-head">
@@ -53,10 +53,10 @@
         })%>
       </div>
     </section>
-    <!-- 新鲜甩尾模块 xxsw -->
-    <section class="layer xxsw">
+    <!-- 今日推荐模块 jrtj -->
+    <section class="layer jrtj">
       <div class="center-wrap">
-        {{include './components/xxsw/xxsw.art'}}
+        {{include './components/jrtj/jrtj.art'}}
       </div>
     </section>
     <!-- 机酒自由行模块 jjzyx -->

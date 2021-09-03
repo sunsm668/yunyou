@@ -24,7 +24,8 @@
 .ddwl .bd>ul>li:nth-child(2){
   margin-left: 0;
 }
-.ddwl .bd>ul>li .pic{
+.ddwl .bd>ul>li .pic,
+.ddwl .bd>ul>li .p-img{
   float: left;
   width: 120px;
   height: 120px;
@@ -67,7 +68,7 @@
   font-size: 14px;
   color: #FFFFFF;
   line-height: 22px;
-  background-color: rgba(0, 0, 0, 0.44);
+  background-color: rgba(8, 4, 4, 0.25);
 }
 .ddwl .bd>ul>li.big .tip .inn {
   width: 322px;

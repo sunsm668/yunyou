@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const resolve = dir => path.resolve(__dirname, dir);
 
 module.exports = {
+  // 开发模式
   mode: 'development',
   // Webpack 入口文件
   entry: {
@@ -15,6 +16,7 @@ module.exports = {
     // 输出的目录
     path: resolve('dist'),
     // 输出的文件名
+    // [name]对应 entry 下个的 入口文件名
     filename: 'js/[name].js'
   },
   // source-map，调试用的，出错的时候，将直接定位到原始代码，而不是转换后的代码

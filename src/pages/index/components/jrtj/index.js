@@ -1,10 +1,10 @@
-import './xxsw.css';
+import './jrtj.css';
 
 import { URL } from './config';
 import { getData } from 'api/getData';
 import render from './items.art';
 
-const layoutEl = document.querySelector('.xxsw .bd');
+const layoutEl = document.querySelector('.jrtj .bd');
 
 getData(URL).then( data => {
     // console.log(data); 

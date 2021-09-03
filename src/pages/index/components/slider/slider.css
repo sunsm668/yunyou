@@ -15,6 +15,7 @@
     /* 转为块级元素去除图片间缝隙 */
     /* display: block; */
     vertical-align: top;
+    height: 520px;
 }
 .slider-animation{
     transition-property: transform;

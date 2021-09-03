@@ -19,7 +19,7 @@ import '../../components/loading';
 import '../index/components/slider';
 import '../index/components/menu';
 import '../index/components/fav-ad';
-import '../index/components/xxsw';
+import '../index/components/jrtj';
 import '../index/components/jjzyx';
 import '../index/components/ddwl';
 import '../index/components/tsddty';

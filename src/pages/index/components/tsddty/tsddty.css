@@ -11,6 +11,10 @@
   .tsddty li.grid:last-child {
     margin-right: 0;
   }
+  .tsddty li.grid .p-img{
+    width: 264px;
+    height: 184px;
+  }
   .tsddty li.grid .tip {
     padding: 10px;
   }

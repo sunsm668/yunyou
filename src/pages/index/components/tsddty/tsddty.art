@@ -1,5 +1,5 @@
 <div class="hd">
-    <h3>特色当地体验</h3>
+    <h3>主题旅行</h3>
   </div>
   <div class="bd">
     <%include('../../../../components/loading/loading.art',{

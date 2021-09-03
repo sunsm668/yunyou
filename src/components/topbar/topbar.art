@@ -4,10 +4,10 @@
         <a href="#">目的地</a>
       </li>
       <li>
-        <a href="#">锦囊</a>
+        <a href="#">云游锦囊</a>
       </li>
       <li class="have_menu">
-        <a href="#">社区</a>
+        <a href="#">云游社区</a>
         <div class="h_menu sq">
           <div class="menu_box">
             <ul class="menu_list">
@@ -27,7 +27,7 @@
         <a href="#">行程助手</a>
       </li>
       <li class="have_menu">
-        <a href="#">商城</a>
+        <a href="#">云游商城</a>
         <div class="h_menu sc">
           <div class="menu_box">
             <ul class="menu_list">
